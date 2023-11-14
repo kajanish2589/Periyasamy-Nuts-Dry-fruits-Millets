@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periyasamy Nuts/Dry fruits & Millets</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Custom style CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+        <a id="navbrand" class="navbar-brand" href="#">Periyasamy Nuts/Dry fruits & Millets</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="herosection" class="text-body mb-4 shadow-1-strong text-center"> 
+        <h1 >Welcome to Periyasamy Nuts/Dry fruits & Millets!</h1>
+        <p class="lead">Discover the finest dry fruits and nuts for a healthy lifestyle.</p>
+    </div>
+ 
+    <!-- Products Section class="container"-->
+    <section id="products"  class="container">
+        <h2 class="text-center mb-4"> Our Products</h2>
+    
+           <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+             <!-- Full-width images with number and caption text -->
+            <div id="slideimage" class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="badam.jpg" class="mySlidesx" >
+            <div class="text">First class Badam </div>
+            </div>
+  
+            <div id="slideimage" class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="dates.jpg" class="mySlidesx">
+            <div class="text">Imported Dry Dates </div>
+            </div>
+  
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="pista.jpg" class="mySlidesx">
+            <div class="text">High quality Pista</div>
+            </div>
+
+            <div id="slideimage" class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="cashew.jpg" class="mySlidesx">
+            <div class="text">Cashew nuts</div>
+            </div>
+
+            <div id="slideimage" class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="millets.jpg" class="mySlidesx">
+                <div class="text">All type of Millets</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div> 
+
+    </section>       
+    <!-- About Us Section -->
+    <section id="about" class="container">
+        <div>
+            <h2 class="text-center mb-4">About Us</h2>
+            <!-- Add more content as needed -->
+            <p>Welcome to our exquisite world of dry fruits and nuts, where health meets indulgence. At our shop, we pride ourselves on offering a curated selection of premium quality dried fruits and nuts sourced from the finest orchards and suppliers. Immerse yourself in the richness of nature&apos;s bounty, where every product is a testament to purity and taste. Our diverse range includes succulent dried apricots, crisp almonds, luscious dates, and an array of nutrient-packed nuts that promise not only a delightful snacking experience but also a boost to your overall well-being. We believe in the power of wholesome goodness, and each product in our collection is carefully chosen to meet the highest standards of quality. Whether you&apos;re a health enthusiast or someone with a sweet tooth, our offerings cater to all palates and preferences. Explore the goodness of nature with our handpicked selection, and embark on a journey of flavor, nutrition, and satisfaction.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section class="container" -->
+    <section id="contact" class="container" >
+    <h2 class="text-center mb-4">Contact Us</h2>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Get in Touch</h4>
+            <p>Have any questions? Reach out to us!</p>
+
+            <!-- Contact Form -->
+            <form action="mailto:kajanish100@gmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+            name="EmailForm">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <div id="visit" class="col-md-6">
+            <h4>Visit Us</h4>
+            <p>Periyasamy Nuts/Dry fruits & Millets</p>
+            <p>MDV School Opposite, CHB Colony,&nbsp;</p>
+            <p>Tiruchengode-Paramati Velur Road, Tiruchengode, Tamil Nadu 637211</p>
+            <p>Phone :- <strong>+91 9442792962</strong></p>
+
+            <!-- Google Maps Embed (Replace with your location) -->
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3911.524556828023!2d77.88712767384143!3d11.36939664797888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba961bdbae18b91%3A0x946ebcfeff946810!2sPeriyasamy%20Mini%20Flour%20Mill!5e0!3m2!1sen!2sin!4v1699859534296!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+<footer>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <div class="container-footer text-center">
+      <div class="social-icons">
+        <!-- Facebook -->
+        <a href="https://facebook.com" >
+            <i class="fab fa-facebook-f fa-lg" style="color: #3b5998; size: 10px;"></i>
+        </a>     
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/" >
+            <i class="fab fa-instagram fa-lg" style="color: #ac2bac;"></i>
+        </a>        
+        <!-- Youtube -->
+        <a href="https://www.youtube.com/" >
+            <i class="fab fa-youtube fa-lg" style="color: #ed302f;"></i>
+        </a>
+        
+        <!-- Add more social media icons as needed -->
+      </div>
+      <p>&copy; 2023 Periyasamy Nuts/Dry fruits & Millets. All rights reserved.</p>
+    </div>
+  </footer>
+  
+</html>

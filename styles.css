@@ -1,0 +1,212 @@
+ /*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+
+ Add your custom styles here */
+ body {
+    background-color: rgb(94, 192, 234);
+    background-image: url('pexels-fwstudio-129731.jpg');
+   /* background-image: url('https://wallpapercave.com/wp/wp8014016.jpg');*/
+}
+
+/*text-body; mb-4; shadow-1-strong; text-center;
+    margin: 0;
+    padding: 0; 
+        background-color: #f4f4f4; */
+#herosection {
+    text-align:center;
+    height: 25%;
+    width: 100%;
+    background-color: powderblue;  
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px whitesmoke, 0 0 5px darkblue;
+    font-size: 3.5em;
+    margin-bottom: 5rem!important;
+    color: white;
+    background-image: url('https://wallpapercave.com/wp/wp8014016.jpg');
+}
+
+.navbar {
+
+    color: rgb(245, 241, 241);
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(0, 16, 19);  
+}
+.navbrand {
+    
+    color: rgb(245, 241, 241);
+    
+}
+nav {
+    background-color: rgba(94, 234, 227, 0.466);
+    
+   /* background-image: url('https://universityhealthnews.com/wp-content/uploads/is-dried-fruit-healthy.jpg');*/
+
+}
+
+
+* {box-sizing:border-box}
+
+/* ===> first css Slideshow container position: relative; ;*/
+.slideshow-container {
+position: relative; 
+margin: auto;
+max-width: 1000px;
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px whitesmoke, 0 0 5px darkblue;
+    font-size: 3.5em;
+color: #ede8e8;
+font-size: 50px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+/*    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50px;
+        display: block;
+    height: 50px;*/
+
+.mySlidesx  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 500px;
+    border: 10px solid #f4eded;
+
+  }
+
+  /* containe start ==============================>*/
+.container {
+    /*border: 5px solid #000;  Thin line border with black color
+        border-style: groove double solid; */
+    border: none;
+    padding: 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: auto;
+}
+  /* containe end ==============================>*/
+
+/* footer start ==============================>*/
+footer {
+    background-color: #dfac77;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    color: #007bff;
+  }
+
+  .share {
+    display: inline-block;
+    font-size: 30px;
+    padding: 5px;
+  }
+  
+/* footer end     color: #0099cc;==============================>*/
+
+/* visit start */
+
+.visit {
+
+    color: #fff;
+    font-family: "Times New Roman", Times, serif;
+
+}
